@@ -1,0 +1,9 @@
+*
+!.gitignore
+!gradle/**/*
+!src/**/*
+!.editorconfig
+!build.gradle
+!gradlew
+!gradlew.bat
+!settings.gradle
