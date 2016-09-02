@@ -1,11 +1,6 @@
-*
-!.gitignore
-!gradle/**/*
-!src/**/*
-!.editorconfig
-!build.gradle
-!gradlew
-!gradlew.bat
-!settings.gradle
-!Procfile
-!system.properties
+/.gradle
+/.idea
+/build
+*.iml
+*.ipr
+*.iws
