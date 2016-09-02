@@ -7,3 +7,5 @@
 !gradlew
 !gradlew.bat
 !settings.gradle
+!Procfile
+!system.properties
