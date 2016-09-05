@@ -4,5 +4,3 @@ spring:
     username: hmtrfkxgztmbiq
     password: VLS-O03qOQTeP3bYh1UbwA---y
     driverClassName: org.postgresql.Driver
-server:
-  port: 8080
