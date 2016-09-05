@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 
 
+/**
+ * アプリケーション
+ */
 @SpringBootApplication
 @EnableAutoConfiguration(exclude=HibernateJpaAutoConfiguration.class)
 public class Application {
