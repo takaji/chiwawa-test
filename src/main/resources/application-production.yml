@@ -1,6 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/chiwawa
-    username: chiwawa
-    password:
+    url: jdbc:postgresql://ec2-54-163-245-3.compute-1.amazonaws.com:5432/ddiuv7a4gl0plp?ssl=true&sslfactory=org.postgresql.ssl.NonValidatingFactory
+    username: hmtrfkxgztmbiq
+    password: VLS-O03qOQTeP3bYh1UbwA---y
     driverClassName: org.postgresql.Driver
+server:
+  port: 8080

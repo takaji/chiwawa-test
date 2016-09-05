@@ -16,8 +16,8 @@ public class ClientApiController {
     private SessionService sessionService;
 
     @RequestMapping("/session")
-    public Session getSession(@RequestParam String companayId, @RequestParam String loginId) {
-        return sessionService.getSession(companayId, loginId);
+    public Session getSession(@RequestParam String companyId, @RequestParam String loginId) {
+        return sessionService.getSession(companyId, loginId);
     }
 
 }
