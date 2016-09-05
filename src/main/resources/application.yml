@@ -1,6 +1,5 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/chiwawa
-    username: chiwawa
-    password:
-    driverClassName: org.postgresql.Driver
+  data:
+    jpa:
+      repositories:
+        enabled: false
